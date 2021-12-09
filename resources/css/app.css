@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    @apply text-4xl font-bold text-center;
+}
+h3 {
+    @apply text-2xl font-bold text-center mb-6;
+}
+label {
+    @apply leading-7 text-sm text-gray-600;
+}
+button {
+    @apply text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded text-sm;
+}
+input[type="text"] {
+    @apply w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out;
+}
+select {
+    @apply w-1/2 mx-auto mb-4 rounded py-1 px-3 leading-8 appearance-none border border-gray-300 bg-gray-100 bg-opacity-50 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 transition-colors duration-200 ease-in-out;
+}
+ul > li {
+    @apply inline-block py-2 px-4 mr-2 text-sm border border-gray-300 rounded;
+}
